@@ -1,4 +1,4 @@
-# D'Urban Furniture
+# D'Urban Fitness
 ## Milestone Project 1 - Kelvin Nicholson
 
 ## Table of Contents
@@ -18,14 +18,15 @@
 
   * Returning User Goals:
     * I want to find links to social media accounts for easier future contact or to see what updates the company has.
-    * I want to be able to contact the company with a general enquiry, for updates on an order or to schedule a collection of unwanted furniture.
+    * I want to be able to contact the company with a general enquiry or for more information about membership.
+    * I want to be able to see membership options without having to contact someone.
 
 * #### Strategy
   * Is to attract new potential customers to the company, to provide them with information of our services and to provide a point of contact. This is to increase awareness and income.
 
 * #### Scope
   * Provide a clean/smooth UX for users.
-  * Provide users with essential information as well as a visual reference of the work we do.
+  * Provide users with essential information as well as the membership options we have.
   * Provide users with testimonials from customers.
   * Provide a clear point of contact.
 
@@ -34,7 +35,7 @@
     * Four web pages:
       - Home Page - Users can find a brief description about the company and testimonials.
       - About Us Page - Users can find information about the company's history, values and misson.
-      - Our Work Page - Users can see some of the projects the company has worked on.
+      - Join Us Page - Users can see the membership options available.
       - Contact Us Page - Users can contact the company through the contact form or find other points of contact.
     * The website is responsive on all devices.
     * User is redirected to Home Page when clicking on the logo.
@@ -42,8 +43,8 @@
     * User can find all social media links and contact information within the footer of every page.
     * User will receive a 404 Page on their screen if they attempt to direct to a page which does not exist.
   * Future Features:
-    * Add the ability to schedule a collection without having to directly contact the company.
-    * Add a sign up/sign in page for users to be able to track the status of orders or collections.
+    * Add the ability to schedule an induction session for the gym online.
+    * Add a sign up/sign in page for users to be able to store and view infromation about their gym sessions and classes.
 
 * #### Skeleton
   * Wireframes:

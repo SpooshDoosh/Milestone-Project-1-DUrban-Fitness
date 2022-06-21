@@ -3,12 +3,33 @@
 * {
   margin: 0;
   padding: 0;  
+  overflow-x: hidden;
 }
 
 body {
     font-family: 'Lato', sans-serif;
     color: #f5f5dc;
     background-color: #232b2b;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+h2 {
+    color: #e25822;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 220%;
+    margin-bottom: 0;
+}
+
+hr {
+    color: #4c9141;
+    border: 2px solid #4c9141
+
+    
 }
 
 /* HEADER */
@@ -18,53 +39,54 @@ body {
     background-color: #232b2b;
 }
 
-.logo h1 {
+.logo {
     font-family: 'Roboto', sans-serif;
     color: #e25822;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 280%;
+    font-size: 140%;
     letter-spacing: 4px;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
     margin-bottom: 0;
+    text-decoration: none;
 }
 
 .nav-bar a {
     text-decoration: none;
-    color: #e25822;
+    color: #f5f5dc;
 }
 
 .nav-bar a:hover {
     color: #e25822;
-    border-bottom: 2px solid #e25822;
+    
 }
 
 .nav-bar ul {
     list-style-type: none;
     float: right;
     margin-bottom: 0;
+    padding-top: 5px;
 }
 
 .nav-bar li {
     display: inline;
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
-    font-size: 140%;
+    font-size: 120%;
     padding-right: 10px;
 }
 
-.active {
-    border-bottom: 2px solid #e25822;
+.nav-bar .active {
+    color: #e25822;
 }
 
 /* HERO IMAGE */
 
-  .hero {
+.hero {
     background: url("../images/pexels-leon-ardho-1552242.jpg");
     background-repeat: no-repeat;
-    background-position: top;
-    background-position-y: -120px;
+    background-position: center;
     background-size: cover;
     height: 600px;
     width: 100%; 
@@ -72,8 +94,65 @@ body {
 
 /* INTRO */
 
+.intro p {
+    text-align: center;
+    padding: 20px 0 20px 15%;
+    font-size: 120%;
+    width: 85%;
+    margin-bottom: 0;
+}
 
 /* TESTIMONIALS */
 
+.testimonials {
+    background: #e25822;
+}
+
+.testimonial-img {
+    border-radius: 50%;
+    border: 2px solid #4c9141;
+}
+
 
 /* FOOTER */
+
+h3 {
+    text-decoration: underline;
+    font-size: large;
+}
+
+h3, ul {
+    color: #e25822;
+    padding-top: 10px;
+}
+
+
+footer {
+    background: #232b2b;
+    border-top: 2px solid #e25822;
+    
+}
+
+.get-in-touch {
+    text-align: center;
+    font-size: large;
+    border-right: 2px solid #e25822;
+}
+
+.socials {
+    text-align: center;
+    border-left: 2px solid #e25822;
+}
+
+i {
+    color: #e25822;
+    font-size: 250%;
+    padding: 10px;
+}
+
+.copyright {
+    text-align: center;
+    color: #e25822;
+    font-size: large;
+    padding: 10px 0;
+}
