@@ -4,27 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/943ad0c0d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact Us - D'Urban Furniture</title>
 </head>
 <body>
     <header>
+        <div class="container-fluid">
+            <div class="row heading">
 
-        <div>
-            <h1>D'Urban Furniture</h1>
+                <div class="col-md-6">
+                    <h1><a class="logo logo-contact" href="index.html">D'Urban Fitness</a></h1>
+                </div>
+
+                <div class="col-md-6 nav-bar">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="membership.html">Join Us</a></li>
+                            <li><a class="active" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
         </div>
-
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="gallery.html">Our Work</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
-
     </header>
     
+    <div class="contact-section">
+        
+        <form class="contact-form" action="#" method="POST">
+           <h2>Contact Us</h2>
+           
+           <label for="fname">First Name</label>
+           <input class="text-input" type="text" id="fname" name="first_name" required/>
+           
+           <label for="lname">Last Name</label>
+           <input class="text-input" type="text" id="lname" name="last_name" required/>
+           
+           <label for="email">Email Address</label>
+           <input class="text-input" id="email" type="email" name="email_address" required/>
+           
+           <label for="reason">Reason</label>
+           <br>
+           <select class="drop-down" name="reason" id="reason">
+            <option value="feedback">Feedback</option>
+            <option value="general">General Enquiry</option>
+            <option value="membership">Membership</option>
+           </select>
+           <br>
+           <label for="message">Message</label>
+           <br>
+           <textarea class="textarea" name="message" id="message"></textarea>
+
+           <input class="submit-button" type="submit" value="Send Enquiry">
+        </form>
+    </div>
+
+    <div class="container-fluid map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1242.501049723122!2d-0.628501741654298!3d51.47647576548419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48767b08d342e827%3A0xdfc176dc083e4cd5!2sImperial%20Park%2C%20Windsor!5e0!3m2!1sen!2suk!4v1656081357020!5m2!1sen!2suk" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <footer>
+        <div class="container"></div>
+            <div class="row">
+
+                <div class="col-4 get-in-touch">
+                    <h3>Get In Touch</h3>
+                    <ul>
+                        <li>Imperial Park, Windsor, Berkshire</li>
+                        <li>012 3456789</li>
+                        <li>info@durbanfitness.co.uk</li>
+                    </ul>
+                </div>
+
+                <div class="col-4 copyright">
+                    <p>
+                        ©  D'Urban Fitness
+                    </p>
+                    <p>
+                        This Company Is Fictitious And For Education Purposes Only. 
+                    </p>
+                    <p>
+                        Website by Kelvin  Nicholson.
+                    </p>
+                </div>
+
+                <div class="col-md-4 socials">
+                <h3>Find Us</h3>
+                <br>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube-square"></i></a>
+                </div>
+
+            </div>
+        </div>    
+    </footer>
 </body>
 </html>
