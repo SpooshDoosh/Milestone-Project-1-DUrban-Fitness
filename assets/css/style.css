@@ -20,16 +20,8 @@ h2 {
     color: #e25822;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 20px;
     font-size: 220%;
-    margin-bottom: 0;
-}
-
-hr {
-    color: #4c9141;
-    border: 2px solid #4c9141
-
-    
+    margin: 30px;
 }
 
 /* HEADER */
@@ -85,6 +77,7 @@ hr {
 
 .hero {
     background: url("../images/pexels-leon-ardho-1552242.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -96,41 +89,65 @@ hr {
 
 .intro p {
     text-align: center;
-    padding: 20px 0 20px 15%;
+    margin: auto;
     font-size: 120%;
     width: 85%;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 /* TESTIMONIALS */
-
 .testimonials {
     background: #e25822;
+    color: #232b2b;
 }
 
-.testimonial-img {
+.testimonials h2 {
+    color: #232b2b;
+    margin: 40px;
+}
+
+.reviews {
+    border: 1px solid #232b2b;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 3px 4px 8px 4px rgba(0, 0, 0, 0.50);
+    margin: auto;
+    margin-bottom: 40px;
+    background: #f5f5dc;
+    text-align: center;
+}
+
+.review-box {
+    margin-bottom: 20px;
+}
+
+.review-img {
     border-radius: 50%;
-    border: 2px solid #4c9141;
+    border: 1px solid #232b2b;
 }
 
+.review-head {
+    padding-top: 5px;
+}
 
+.blockquote-footer {
+    color: #232b2b;
+}
 /* FOOTER */
 
 h3 {
     text-decoration: underline;
-    font-size: large;
+    font-size: x-large;
 }
 
 h3, ul {
-    color: #e25822;
+    color: #f5f5dc;
     padding-top: 10px;
 }
 
 
 footer {
     background: #232b2b;
-    border-top: 2px solid #e25822;
-    
 }
 
 .get-in-touch {
@@ -145,14 +162,14 @@ footer {
 }
 
 i {
-    color: #e25822;
+    color: #f5f5dc;
     font-size: 250%;
     padding: 10px;
 }
 
 .copyright {
     text-align: center;
-    color: #e25822;
+    color: #f5f5dc;
     font-size: large;
     padding: 10px 0;
 }
