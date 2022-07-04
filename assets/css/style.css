@@ -148,27 +148,35 @@ h3, ul {
     padding-top: 10px;
 }
 
-
-footer {
-    background: #232b2b;
-}
-
-.get-in-touch {
-    text-align: center;
-    font-size: large;
-    border-right: 2px solid #e25822;
-}
-
-.socials {
-    text-align: center;
-    border-left: 2px solid #e25822;
-}
-
 i {
     color: #fff;
     font-size: 250%;
     padding: 10px;
 }
+
+footer {
+    background: #232b2b;
+}
+
+.footer-box {
+    border: 1px solid #e25822;
+}
+
+.get-in-touch {
+    text-align: center;
+    font-size: large;
+}
+
+.get-in-touch i {
+    font-size: medium;
+    padding: 0 5px 0 0;
+}
+
+.socials {
+    text-align: center;
+}
+
+
 
 .copyright {
     text-align: center;
@@ -256,19 +264,26 @@ iframe {
 /* MEMBERSHIP */
 
 .member-options {
-    background: url("../images/image.png");
+    background: url("../images/pexels-cottonbro-4761352.jpg");
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: left;
     background-size: cover;
 }
 
 .membership {
-    margin: 35px 150px;
+    margin: 60px;
 }
 
 .card {
-    height: 500px;
-    background: #e25822;
+    height: 300px;
+    background: #232b2b;
+    border: 1px solid #e25822;
+}
+
+.card i {
+    font-size: 600%;
+    text-align: center;
+    color: #e25822;
 }
 
 .card-1, .card-3 {
@@ -296,4 +311,30 @@ iframe {
     background: #fff;
     color: #4c9141;
     border-color: #4c9141;
+}
+
+/* ABOUT US */
+
+.about-us-intro p {
+    text-align: center;
+    margin: auto;
+    font-size: 120%;
+    width: 70%;
+    padding: 35px 0;
+}
+
+.about-us-intro .btn {
+    margin-bottom: 35px;
+}
+
+.about-hero {
+    background: url("../images/pexels-leon-ardho-2468366.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.orange-box {
+    background: #e25822;
 }
