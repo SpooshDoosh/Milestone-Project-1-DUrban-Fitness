@@ -14,6 +14,7 @@ body {
 
 h1 {
     margin-top: 10px;
+    overflow-y: hidden;
 }
 
 h2 {
@@ -44,36 +45,39 @@ h2 {
     text-decoration: none;
 }
 
-h1 a:hover {
+.navbar h1 a:hover {
     color: #e25822;
 }
 
-.nav-bar a {
+.navbar-nav a {
     text-decoration: none;
     color: #fff;
 }
 
-.nav-bar a:hover {
+.navbar-nav a:hover {
     color: #e25822;
     
 }
 
-.nav-bar ul {
+.navbar-nav ul {
     list-style-type: none;
     float: right;
     margin-bottom: 0;
     padding-top: 5px;
 }
 
-.nav-bar li {
-    display: inline;
+.navbar-nav li {
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
     font-size: 120%;
     padding-right: 10px;
 }
 
-.nav-bar .active {
+.navbar-nav .active a {
+    color: #e25822;
+}
+
+.navbar-toggler-icon {
     color: #e25822;
 }
 
@@ -85,9 +89,10 @@ h1 a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: #232b2b;
     height: 600px;
     width: 100%;
-} 
+}
 /* INTRO */
 
 .intro p {
@@ -271,11 +276,13 @@ iframe {
 }
 
 .membership {
-    margin: 60px;
+   margin: 30px 40px; 
 }
+
 
 .card {
     height: 300px;
+    width: 400px;
     background: #232b2b;
     border: 1px solid #e25822;
 }
@@ -284,14 +291,6 @@ iframe {
     font-size: 600%;
     text-align: center;
     color: #e25822;
-}
-
-.card-1, .card-3 {
-    float: left;
-}
-
-.card-2, .card-4 {
-    float: right;
 }
 
 .card-body {
@@ -338,3 +337,21 @@ iframe {
 .orange-box {
     background: #e25822;
 }
+
+/* RESPONSIVE */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+   
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
