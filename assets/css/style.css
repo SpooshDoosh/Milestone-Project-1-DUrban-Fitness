@@ -77,10 +77,6 @@ h2 {
     color: #e25822;
 }
 
-.navbar-toggler-icon {
-    
-}
-
 .navbar-toggler {
     margin-right: 10px;
 }
@@ -388,7 +384,7 @@ iframe {
     font-size: 100%;
    }
 
-   .top-left, .bottom-left,  {
+   .top-left, .bottom-left {
     margin: auto;
     }
 

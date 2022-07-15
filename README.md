@@ -54,8 +54,12 @@
 
 * #### Surface 
   * Colour Scheme:
-    - ![Palette Colours](assets/readme/colour-palette.png)
+    - ![Palette Colours](assets/readme/MP1.png)
 
   * Typography:
+    * Two fonts were used throughout this website.
+      * Roboto was used for the logo and navigation bar.
+      * Lato was used everywhere else throughout the website.
+
   * Imagery:
-    
+    * All hero images on every page is related to gym/fitness. The same general theme/colouring of images is maintained throughout.
