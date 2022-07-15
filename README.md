@@ -1,6 +1,10 @@
 # D'Urban Fitness
 ## Milestone Project 1 - Kelvin Nicholson
 
+![D'Urban Fitness](assets/readme/capture.png)
+
+[View live project here](https://spooshdoosh.github.io/Milestone-Project-1-DUrban-Fitness/)
+
 ## Table of Contents
 
 ### UX
@@ -54,7 +58,7 @@
 
 * #### Surface 
   * Colour Scheme:
-    - ![Palette Colours](assets/readme/MP1.png)
+    - ![Palette Colours](assets/readme/colour-palette.png)
 
   * Typography:
     * Two fonts were used throughout this website.

@@ -95,7 +95,7 @@ h2 {
 /* INTRO */
 
 .intro p {
-    text-align: center;
+    text-align: left;
     margin: auto;
     font-size: 120%;
     width: 85%;
@@ -143,6 +143,7 @@ h2 {
 
 .reviews p {
     padding: 10px;
+    text-align: left;
 }
 /* FOOTER */
 
@@ -334,11 +335,22 @@ iframe {
 /* ABOUT US */
 
 .about-us-intro p {
-    text-align: center;
+    text-align: left;
     margin: auto;
     font-size: 120%;
     width: 70%;
     padding: 35px 0;
+}
+
+.about-us-intro h3 {
+    color: #e25822;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 35px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .about-us-intro .btn {
@@ -353,11 +365,28 @@ iframe {
     height: 600px;
 }
 
+.about-mid-img {
+    width: 33.33%;
+    padding: 5px;    
+}
+
+.about-mid-img img {
+    box-shadow: 2px 3px 4px 3px rgba(0, 0, 0, 0.50);
+    border: 1px solid #fff;
+    border-radius: 5%;
+}
+
 .orange-box {
     background: #e25822;
 }
 
 /* RESPONSIVE */
+
+@media screen and (max-width: 1050px) {
+    .options {
+        width: 40%;
+    }
+}
 
 @media screen and (max-width: 768px) { 
    .hero {
@@ -407,10 +436,25 @@ iframe {
 
     .membership-options {
         padding: 15px 0;
+        background: #e25822;
     }
 
     .about-us-intro p {
         width: 85%;
         padding: 15px 0;
     }
+
+    .copyright {
+        padding: 10px 10px;
+    }
+
+    h2 {
+        font-size: 180%;
+    }
+
+    .about-mid-img {
+        width: 100%;
+        padding: 5px;  
+    }
 }
+
