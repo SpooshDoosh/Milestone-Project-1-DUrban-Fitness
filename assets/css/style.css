@@ -78,9 +78,12 @@ h2 {
 }
 
 .navbar-toggler-icon {
-    color: #e25822;
+    
 }
 
+.navbar-toggler {
+    margin-right: 10px;
+}
 /* HERO IMAGE */
 
 .hero {
@@ -141,6 +144,10 @@ h2 {
 .blockquote-footer {
     color: #232b2b;
 }
+
+.reviews p {
+    padding: 10px;
+}
 /* FOOTER */
 
 h3 {
@@ -180,8 +187,6 @@ footer {
 .socials {
     text-align: center;
 }
-
-
 
 .copyright {
     text-align: center;
@@ -268,36 +273,54 @@ iframe {
 
 /* MEMBERSHIP */
 
-.member-options {
+.membership-options {
     background: url("../images/pexels-cottonbro-4761352.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.membership {
-   margin: 30px 40px; 
-}
-
-
-.card {
-    height: 300px;
-    width: 400px;
+.options {
+    border: 2px solid #e25822;
     background: #232b2b;
-    border: 1px solid #e25822;
+    width: 25%;
+    height: 350px;
+    text-align: center;
 }
 
-.card i {
+.top-left, .bottom-left {
+    float: left;
+    margin: 35px 0 0 35px;
+}
+
+.top-right, .bottom-right {
+    float: right;
+    margin: 35px 35px 0 0;
+}
+
+.bottom-left, .bottom-right {
+    margin-bottom: 35px;
+}
+
+.top-box, .bottom-box {
+    display: inline-block;
+    width: 100vw;
+}
+
+.membership-options i {
     font-size: 600%;
-    text-align: center;
     color: #e25822;
 }
 
-.card-body {
-    text-align: center;
+.membership-options h2 {
+    margin: 0;
+    font-size: x-large;
 }
-.card-title {
-    text-transform: uppercase;
+
+.membership-options p {
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 0 20px;
 }
 
 .btn-primary {
@@ -340,18 +363,58 @@ iframe {
 
 /* RESPONSIVE */
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-   
+@media screen and (max-width: 768px) { 
+   .hero {
+    background: url("../images/pexels-leon-ardho-1552242.jpg");
+    background-attachment: local ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #232b2b;
+    height: 40vh;
+    width: 100vw;
+   }
+
+   .about-hero {
+    background: url("../images/pexels-leon-ardho-2468366.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100vw;
+   }
+
+   .logo {
+    font-size: 100%;
+   }
+
+   .top-left, .bottom-left,  {
+    margin: auto;
+    }
+
+    .top-right, .bottom-right {
+        margin: auto;
+    }
+
+    .top-box, .bottom-box {
+        display: inline;
+        width: 100vw;
+    }
+
+    .options {
+        border: 1px solid #e25822;
+        background: #232b2b;
+        width: 100vw;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .membership-options {
+        padding: 15px 0;
+    }
+
+    .about-us-intro p {
+        width: 85%;
+        padding: 15px 0;
+    }
 }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-   
- }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
