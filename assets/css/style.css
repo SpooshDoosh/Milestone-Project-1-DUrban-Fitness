@@ -85,7 +85,7 @@ h2 {
 /* HERO IMAGE */
 
 .hero {
-    background: url("../images/pexels-leon-ardho-1552242.jpg");
+    background: url("../images/hero1.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -204,7 +204,7 @@ footer {
 /* CONTACT FORM */
 
 .contact-section {
-    background: url("../images/pexels-cottonbro-4761663.jpg");
+    background: url("../images/boxing.jpg");
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -276,7 +276,7 @@ iframe {
 /* MEMBERSHIP */
 
 .membership-options {
-    background: url("../images/pexels-cottonbro-4761352.jpg");
+    background: url("../images/man-jumprope.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -363,7 +363,7 @@ iframe {
 }
 
 .about-hero {
-    background: url("../images/pexels-leon-ardho-2468366.jpg");
+    background: url("../images/hero2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -414,7 +414,7 @@ iframe {
 
 @media screen and (max-width: 820px) { 
    .hero {
-    background: url("../images/pexels-leon-ardho-1552242.jpg");
+    background: url("../images/hero1.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
@@ -425,7 +425,7 @@ iframe {
    }
 
    .about-hero {
-    background: url("../images/pexels-leon-ardho-2468366.jpg");
+    background: url("../images/hero2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -486,7 +486,7 @@ iframe {
     }
 
     .contact-section {
-    background: url("../images/pexels-cottonbro-4761663-cropped.jpg");
+    background: url("../images/boxing-cropped.jpg");
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
