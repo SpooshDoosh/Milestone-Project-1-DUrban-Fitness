@@ -136,6 +136,15 @@ h2 {
     border-radius: 50%;
     border: 1px solid #232b2b;
     height: 200px;
+    width: 200px;
+}
+
+.image-desktop {
+    display: inline-block;
+}
+
+.image-mobile {
+    display: none;
 }
 
 .review-head {
@@ -415,7 +424,7 @@ iframe {
 
 @media screen and (max-width: 820px) { 
    .hero {
-    background: url("../images/hero1.jpg");
+    background: url("../images/hero1.webp");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
@@ -426,7 +435,7 @@ iframe {
    }
 
    .about-hero {
-    background: url("../images/hero2.jpg");
+    background: url("../images/hero2.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -487,11 +496,23 @@ iframe {
     }
 
     .contact-section {
-    background: url("../images/boxing-cropped.jpg");
+    background: url("../images/boxing-cropped.webp");
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .image-desktop {
+        display: none;
+    }
+
+    .image-mobile {
+        display: inline-block;
     }
 }
 
