@@ -135,6 +135,7 @@ h2 {
 .review-img {
     border-radius: 50%;
     border: 1px solid #232b2b;
+    height: 200px;
 }
 
 .review-head {
