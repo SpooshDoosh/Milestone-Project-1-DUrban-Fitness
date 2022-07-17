@@ -115,6 +115,10 @@ Lighthouse was used to test each page (on desktop and mobile versions) to assess
 
      * The Best Practices score is addressed in Debugging.
 
+* submission.html
+
+    ![submission](assets/testing/desktop-submission-lh.png)
+
 ## Mobile Results
 * index.html
 
@@ -131,6 +135,10 @@ Lighthouse was used to test each page (on desktop and mobile versions) to assess
 * contact.html
 
     ![contact](assets/testing/mobile-contact-lh.png)
+
+* submission.html
+
+    ![submission](assets/testing/mobile-submission-lh.png)
 
 ---
 
