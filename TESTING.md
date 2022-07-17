@@ -92,3 +92,44 @@ The website's CSS was run through the W3C CSS Validation Service (Jigsaw). No is
     ![css](assets/testing/cssvalidator.png)
 
 ---
+
+# Lighthouse
+Lighthouse was used to test each page (on desktop and mobile versions) to assess performance and overall experience. 
+
+## Desktop Results
+* index.html
+
+    ![index](assets/testing/dt-index-lh.png)
+
+* about.html
+
+    ![about](assets/testing/dt-about-lh.png)
+
+* membership.html
+
+    ![membership](assets/testing/dt-join-lh.png)
+
+* contact.html
+
+    ![contact](assets/testing/dt-contact-lh.png)
+
+     * The Best Practices score is addressed in Debugging.
+
+## Mobile Results
+* index.html
+
+    ![index](assets/testing/mobile-index-lh.png)
+
+* about.html
+
+    ![about](assets/testing/mobile-about-lh.png)
+
+* membership.html
+
+    ![membership](assets/testing/mobile-join-lh.png)
+
+* contact.html
+
+    ![contact](assets/testing/mobile-contact-lh.png)
+
+
