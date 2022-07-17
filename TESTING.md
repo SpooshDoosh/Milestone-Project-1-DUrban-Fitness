@@ -1,6 +1,6 @@
 # Testing
 
-# Browser Compatability
+# Browser Compatibility
 This website has been tested and operates as it should on Chrome, Microsoft Edge, Safari, Firefox and Opera browsers.
 
 The website has been tested using Chrome Devloper Tools for it's responsiveness on various device viewports.
@@ -55,3 +55,40 @@ I personally tested the website on my iPad 6 and iPhone 12 Pro Max.
 
 ---
 
+# Code Validation
+
+## HTML
+
+Each page of the website was run through the W3C Markup Validation Service to ensure there were no errors. 
+
+* index.html
+    * Initially there was an error with a stray div closing tag which has now been resolved. 
+    ![index](assets/testing/index-htmlchecker.png)
+    
+
+* about.html
+     * Initially there was an error with a stray div closing tag which has now been resolved.
+    ![about](assets/testing/about-htmlchecker.png)
+    
+
+* membership.html
+    * Initially there was an error with a stray div closing tag, h2 opening tags had h3 closing tags and one h2 tag had an "s" in it. All of these have now been resolved.
+    ![membership](assets/testing/membership-htmlchecker.png)
+    
+
+* contact.html
+     * Initially there was an error with a stray div closing tag which has now been resolved.
+    ![contact](assets/testing/contact-htmlchecker.png)
+   
+
+* submission.html
+    ![]()
+
+## CSS
+
+The website's CSS was run through the W3C CSS Validation Service (Jigsaw). No issues or errors were found.
+
+* style.css
+    ![css](assets/testing/cssvalidator.png)
+
+---
