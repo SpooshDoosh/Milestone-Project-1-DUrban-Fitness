@@ -132,4 +132,19 @@ Lighthouse was used to test each page (on desktop and mobile versions) to assess
 
     ![contact](assets/testing/mobile-contact-lh.png)
 
+---
 
+# Debugging
+## Resolved
+* Lighthouse mobile performance testing on the "contact us" page was at 75. Changes were made to get the score to 92. To achieve this, the following was done:
+   * Replaced mobile background with a WEBP image that had been compressed / optimized.
+   * The iframe at the bottom of the page displaying the map was removed from the mobile version of the website.
+
+* When clicking on the "Send Enquiry" button on the form, the user is directed to the Code Institute formdump page. To solve this, a submission.html page was created to notify the user that the enquiry has been sent and to allow them to return to the original website.
+
+## Unresolved 
+* Lighthouse mobile performance testing on certain pages is below 90. Lighthouse advises using images that are appropriately sized to save cellular data and improve load times.
+
+* Lighthouse desktop performance testing on the "contact us" page is at 83. This is due to the detection of known security vulnerabilities with front-end JavaScript libraries. Lighthouse advises to ensure Content Security Policy is affective against XSS attacks.
+    * Bootstrap vulnerabilities: Cross-site Scripting (XSS)
+    * jQuery vulnerabilities: Cross-site Scripting and Prototype Pollution.
