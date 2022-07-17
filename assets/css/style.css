@@ -397,10 +397,6 @@ iframe {
 
 /* SUBMISSION */
 
-.submission {
-    height: 600px;
-}
-
 .submission-band {
     background-color: #e25822;
     height: 60px;
@@ -527,5 +523,25 @@ iframe {
     .image-mobile {
         display: inline-block;
     }
+
+    .submission .thank-text {
+        width: 90vw;
+        margin: 20px auto;
+        text-align: left;
+    }
+
+    .submission h1 {
+        width: 90vw;
+        margin: 35px auto;
+    }
+
+    .submission i {
+        padding: 0;
+    }
+
+    .submission-band {
+        height: 25px;
+    }
+
 }
 
