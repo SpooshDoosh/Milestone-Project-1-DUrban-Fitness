@@ -25,7 +25,7 @@ h2 {
     margin: 30px;
 }
 
-/* HEADER */
+/*----------------------------------------HEADER */
 
 .heading {
     line-height: 75px;
@@ -82,7 +82,7 @@ h2 {
     margin-right: 10px;
 }
 
-/* HERO IMAGE */
+/*----------------------------------------HERO IMAGE */
 
 .hero {
     background: url("../images/hero1.jpg");
@@ -95,7 +95,7 @@ h2 {
     width: 100%;
 }
 
-/* INTRO */
+/*----------------------------------------INTRO */
 
 .intro p {
     text-align: left;
@@ -105,7 +105,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-/* TESTIMONIALS */
+/*----------------------------------------TESTIMONIALS */
 
 .testimonials {
     background: #e25822;
@@ -160,7 +160,7 @@ h2 {
     text-align: left;
 }
 
-/* FOOTER */
+/*----------------------------------------FOOTER */
 
 h3 {
     text-decoration: underline;
@@ -211,7 +211,7 @@ footer {
     border-top: 2px solid #e25822;
 }
 
-/* CONTACT FORM */
+/*----------------------------------------CONTACT FORM */
 
 .contact-section {
     background: url("../images/boxing.jpg");
@@ -271,7 +271,7 @@ footer {
     border: 2px solid #4c9141;
 }
 
-/* MAP*/
+/*----------------------------------------MAP*/
 
 iframe {
     width: 100%;
@@ -283,7 +283,7 @@ iframe {
     background: #e25822;
 }
 
-/* MEMBERSHIP */
+/*----------------------------------------MEMBERSHIP */
 
 .membership-options {
     background: url("../images/man-jumprope.jpg");
@@ -347,7 +347,7 @@ iframe {
     border-color: #4c9141;
 }
 
-/* ABOUT US */
+/*----------------------------------------ABOUT US */
 
 .about-us-intro p {
     text-align: left;
@@ -395,14 +395,14 @@ iframe {
     background: #e25822;
 }
 
-/* SUBMISSION */
+/*----------------------------------------SUBMISSION */
 
 .submission-band {
     background-color: #e25822;
     height: 60px;
 }
 
-.submission h1 {
+.submission h2 {
     color: #fff;
     font-size: 200%;
     text-transform: uppercase;
@@ -423,7 +423,7 @@ iframe {
     color: #e25822;
 }
 
-/* RESPONSIVE */
+/*----------------------------------------RESPONSIVE */
 
 @media screen and (max-width: 1050px) {
     .options {
@@ -530,7 +530,7 @@ iframe {
         text-align: left;
     }
 
-    .submission h1 {
+    .submission h2 {
         width: 90vw;
         margin: 35px auto;
     }

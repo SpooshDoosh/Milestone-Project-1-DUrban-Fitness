@@ -90,6 +90,7 @@ The purpose of this project was to create a multiple page website for a small lo
   * [Gitpod](https://gitpod.io/) - Integrated Development Environment used to develop the website.
   * [Balsamiq](https://balsamiq.com/) - Used for wireframing of the website.
   * [Coolors](https://coolors.co/) - Used to assemble an appropriate colour palette.
+  * [Ezgif](https://ezgif.com/) - Used to convert images to WEBP format and compress images.
 
 ---
 
@@ -135,7 +136,6 @@ This project was deployed to GitHub pages. This project made use of the Code Ins
 ---
 
 # Credits
-
 * [Pexels](https://www.pexels.com/) - All images throughout the website were sourced from Pexels.
 * [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/) - Used to create the mockup at the top of the README.md file.
 * [Bootstrap](https://getbootstrap.com/) - Used for navbar, blockquotes, grid system, forms and all other classes that I used for making the project responsive.
