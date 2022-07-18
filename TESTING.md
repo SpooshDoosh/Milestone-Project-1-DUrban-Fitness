@@ -23,35 +23,63 @@ I personally tested the website on my iPad 6 and iPhone 12 Pro Max.
 
 # User Stories Testing
 
-* I want to understand the main purpose of the website and find out about the services offered by the company.
-    * On the homepage there is a brief description of what the website is about as well as a list of what they offer.
+* First Time User
+    * I want to understand the main purpose of the website and find out about the services offered by the company.
+        * On the homepage there is a description of what the website is about as well as a list of what they offer.
 
-    ![WhoWeAre](assets/testing/who%20we%20are.png)
+        ![WhoWeAre](assets/testing/who%20we%20are.png)
 
-* I want to be able to easily understand and navigate the website.
-    * The navigation throughout the website is the same - simple, straightforward and clear. The active webpage is higlighted in a coloured font.
+    * I want to be able to easily understand and navigate the website.
+        * The navigation throughout the website is the same - simple, straightforward and clear. The active webpage is higlighted in a coloured font. There also buttons on two pages that will redirect to the appropriate pages.
 
-    ![Navigation](assets/testing/navigation.png)
+        ![Navigation](assets/testing/navigation.png)
 
-* I want to find testimonials from customers.
-    * The homepage has a clear section with testimonials from clients.
+        ![Button](assets/testing/button1.png)
 
-    ![Testimonials](assets/testing/testimonials.png)
+        ![Button](assets/testing/button2.png)
 
-* I want to find links to social media accounts for easier future contact or to see what updates the company has.
-    * Social media links can be found in the footer of every page throughout the website.
+    * I want to find testimonials from customers.
+        * The homepage has a clear section with testimonials from clients.
 
-    ![Socials](assets/testing/socials.png)
+        ![Testimonials](assets/testing/testimonials.png)
 
-* I want to be able to contact the company with a general enquiry or for more information about membership.
-    * The contact page can be found easily in the navigation bar and contact details can also be found in the footer of every page. The contact form is simple to use. There is a dropdown within the contact form to be able to select the purpose of contact.
+* Returning User
+    * I want to find links to social media accounts for easier future contact or to see what updates the company has.
+        * Social media links can be found in the footer of every page throughout the website.
 
-    ![Contact](assets/testing/contact.png)
+        ![Socials](assets/testing/socials.png)
 
-* I want to be able to see membership options without having to contact someone.
-    * On the Join Us page every membership option is listed with price and brief description. There are buttons that link to the contact page should someone wish to do so.
+    * I want to be able to contact the company with a general enquiry or for more information about membership.
+        * The contact page can be found easily in the navigation bar and contact details can also be found in the footer of every page. The contact form is simple to use. There is a dropdown within the contact form to be able to select the purpose of contact.
 
-    ![Membership](assets/testing/membership.png)
+        ![Contact](assets/testing/contact.png)
+
+    * I want to be able to see membership options without having to contact someone.
+        * On the Join Us page every membership option is listed with price and brief description. There are buttons that link to the contact page should someone wish to do so.
+
+        ![Membership](assets/testing/membership.png)
+
+* Site Owner
+    * I want the company to be easily found using search engines.
+        * Each webpage has been run through lighthouse which produces a score for Search Engine Optimization. These checks ensure that the page is optimized for search engine results ranking.
+
+        ![SEO](assets/testing/dt-index-lh.png)
+
+    * I want to bring attention the who we are and what we do.
+        * On the homepage there is a brief description of what the website is about as well as a list of what the company offers.
+
+        ![WhoWeAre](assets/testing/who%20we%20are.png)
+
+    * I want site visitors to the site to be able to easily locate the company as well as the contact details easily from the website.
+        * Contact details for the company can be found on the footer of every webpage. On the Contact Us page there is a map towards the bottom of the page showing the location of the company.
+
+        ![GetInTouch](assets/testing/getintouch.png)
+
+        ![Map](assets/testing/map.png)
+
+
+
+    * I want site visitors to be able to directly contact the company through the website.
 
 ---
 
