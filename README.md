@@ -31,6 +31,12 @@ The purpose of this project was to create a multiple page website for a small lo
     * I want to be able to contact the company with a general enquiry or for more information about membership.
     * I want to be able to see membership options without having to contact someone.
 
+  * Site Owner Goals:
+    * I want the company to be easily found using search engines.
+    * I want to bring attention the who we are and what we do.
+    * I want site visitors to the site to be able to easily locate the company as well as the contact details easily from the website.
+    * I want site visitors to be able to directly contact the company through the website. 
+
 * ## Strategy
   * Is to attract new potential customers to the company, to provide them with information of our services and to provide a point of contact. This is to increase awareness and income.
 
@@ -47,14 +53,26 @@ The purpose of this project was to create a multiple page website for a small lo
       - About Us Page - Users can find information about the company's values and services.
       - Join Us Page - Users can see the membership options available.
       - Contact Us Page - Users can contact the company through the contact form or find other points of contact.
+      - Thank You Page - Upon successfully submitting contact form, the user will receive a "Thank you" page acknowledging their enquiry and giving details about response times.
     * The website is responsive on all devices.
-    * User is redirected to Home Page when clicking on the logo.
-    * User is able to use the navigation bar at the top of the page to navigate between pages. 
-    * User can find all social media links and contact information within the footer of every page.
-    * User will receive a 404 Page on their screen if they attempt to direct to a page which does not exist.
+    * User can find all social media links and contact information within the footer of every page. Social media links open in new tabs.
+    * Navigation: 
+      * User can land on any page of the website and find what they need within 3 clicks.
+      * Navigation bar available on every page and has links to every page (excluding "Thank you" page).
+      * About Us page has a button which redirects to the Join Us page.
+      * Join Us page has a button beneath each membership option that redirects to the Contact Us page.
+      * The Send Enquiry button redirects to a "Thank You" page to confirm form submission. From this page the user can navigate throughout the entire website using the navigation bar.
+      * User is redirected to Home Page when clicking on the logo.
+      * The buttons move the user through the  website in the order of the pages without skipping pages and without inconveniencing the user.
+
+
   * Future Features:
     * Add the ability to schedule an induction session for the gym online.
-    * Add a sign up/sign in page for users to be able to store and view infromation about their gym sessions and classes.
+    * Users will receive a 404 Page on their screen if they attempt to direct to a page which does not exist. The 404 page is available but not functional as yet.
+    * Add links to class timetables and live virtual classes to avoid users having to contact the company for these details.
+    * Add gym membership payment functionality to allow users to sign themselves up and pay for membership without having to contact the company.
+    * Add a sign in page for users to be able to store and view infromation about their gym sessions, classes and track progress.
+    * Potentially create an app for the members to access all of their profile information and possibly communicate with other members and staff.
 
 * ## Skeleton
   * Wireframes:
@@ -98,6 +116,7 @@ The purpose of this project was to create a multiple page website for a small lo
   * [Balsamiq](https://balsamiq.com/) - Used for wireframing of the website.
   * [Coolors](https://coolors.co/) - Used to assemble an appropriate colour palette.
   * [Ezgif](https://ezgif.com/) - Used to convert images to WEBP format and compress images.
+  * [Creately](https://app.creately.com/) - Used to create sitemap.
 
 ---
 
