@@ -58,13 +58,20 @@ The purpose of this project was to create a multiple page website for a small lo
 
 * ## Skeleton
   * Wireframes:
-    - Mobile: [Home](assets/wireframes/mobile-home.png) | [About Us](assets/wireframes/mobile-about-us.png) | [Our Work](assets/wireframes/mobile-our-work.png) | [Contact Us](assets/wireframes/mobile-contact-us.png)
-    - Tablet: [Home](assets/wireframes/tablet-home.png) | [About Us](assets/wireframes/tablet-about-us.png) | [Our Work](assets/wireframes/tablet-our-work.png) | [Contact Us](assets/wireframes/tablet-contact-us.png)
-    - Desktop: [Home](assets/wireframes/desktop-home.png) | [About Us](assets/wireframes/desktop-about-us.png) | [Our Work](assets/wireframes/desktop-our-work.png) | [Contact Us](assets/wireframes/desktop-contact-us.png)
+    - Mobile: [Home](assets/wireframes/index-mobile.png) | [About Us](assets/wireframes/about-mobile.png) | [Join Us](assets/wireframes/join-mobile.png) | [Contact Us](assets/wireframes/contact-mobile.png) | [Thank You](assets/wireframes/submission-mobile.png)
+    - Tablet: [Home](assets/wireframes/index-tablet.png) | [About Us](assets/wireframes/about-tablet.png) | [Join Us](assets/wireframes/join-tablet.png) | [Contact Us](assets/wireframes/contact-tablet.png) | [Thank You](assets/wireframes/submission-tablet.png)
+    - Desktop: [Home](assets/wireframes/index.png) | [About Us](assets/wireframes/about.png) | [Join Us](assets/wireframes/desktop-our-work.png) | [Contact Us](assets/wireframes/contact.png) | [Thank You](assets/wireframes/submission.png)
+
+  * Sitemap: 
+    * Blue lines indicate page access via navigation bar.
+    * Purple lines indicate page access via buttons.
+
+    ![sitemap](assets/readme/sitemap.png)
 
 * ## Surface 
   * Colour Scheme:
-    - ![Palette Colours](assets/readme/colour-palette.png)
+
+    ![Palette Colours](assets/readme/colour-palette.png)
 
   * Typography:
     * Two fonts were used throughout this website.
