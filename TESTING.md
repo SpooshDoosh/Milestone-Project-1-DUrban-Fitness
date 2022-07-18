@@ -82,7 +82,8 @@ Each page of the website was run through the W3C Markup Validation Service to en
    
 
 * submission.html
-    ![]()
+    * Initially there was an error with a stray div closing tag which has now been resolved.
+    ![submission](assets/testing/submission-htmlchecker.png)
 
 ## CSS
 
