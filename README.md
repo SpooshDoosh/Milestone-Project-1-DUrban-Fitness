@@ -176,4 +176,4 @@ This project was deployed to GitHub pages. This project made use of the Code Ins
 # Credits
 * [Pexels](https://www.pexels.com/) - All images throughout the website were sourced from Pexels.
 * [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/) - Used to create the mockup at the top of the README.md file.
-* [Bootstrap](https://getbootstrap.com/) - Used for navbar, blockquotes, grid system, forms and all other classes that I used for making the project responsive.
+* [Bootstrap](https://getbootstrap.com/) - Used for navbar, blockquotes, grid system and for making the project responsive.
