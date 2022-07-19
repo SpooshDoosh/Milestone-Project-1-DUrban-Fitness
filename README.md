@@ -33,8 +33,8 @@ The purpose of this project was to create a multiple page website for a small lo
 
   * Site Owner Goals:
     * I want the company to be easily found using search engines.
-    * I want to bring attention the who we are and what we do.
-    * I want site visitors to the site to be able to easily locate the company as well as the contact details easily from the website.
+    * I want to bring attention to who we are and what we do.
+    * I want site visitors to be able to easily locate the company as well as the contact details easily from the website.
     * I want site visitors to be able to directly contact the company through the website. 
 
 * ## Strategy
@@ -53,18 +53,18 @@ The purpose of this project was to create a multiple page website for a small lo
       - About Us Page - Users can find information about the company's values and services.
       - Join Us Page - Users can see the membership options available.
       - Contact Us Page - Users can contact the company through the contact form or find other points of contact.
-      - Thank You Page - Upon successfully submitting contact form, the user will receive a "Thank you" page acknowledging their enquiry and giving details about response times.
+      - Thank You Page - Upon successfully submitting the contact form, the user will receive a "Thank you" page acknowledging their enquiry and giving details about response times.
     * The website is responsive on all devices.
-    * User can find all social media links and contact information within the footer of every page. Social media links open in new tabs.
-    * Users will receive a 404 Page on their screen if they attempt to direct to a page which does not exist.
+    * Users can find all social media links and contact information within the footer of every page. Social media links open in new tabs.
+    * Users will receive a 404 Page if they attempt to direct to a page which does not exist.
     * Navigation: 
-      * User can land on any page of the website and find what they need within 3 clicks.
-      * Navigation bar available on every page and has links to every page (excluding "Thank you" page).
+      * Users can land on any page of the website and find what they need within 3 clicks.
+      * Navigation bar is available on every page and has links to all pages (excluding "Thank you" page).
       * About Us page has a button which redirects to the Join Us page.
       * Join Us page has a button beneath each membership option that redirects to the Contact Us page.
       * The Send Enquiry button redirects to a "Thank You" page to confirm form submission. From this page the user can navigate throughout the entire website using the navigation bar.
       * User is redirected to Home Page when clicking on the logo.
-      * The buttons move the user through the  website in the order of the pages without skipping pages and without inconveniencing the user.
+      * The buttons move the user through the website in the order of the pages without skipping pages and without inconveniencing the user.
 
 
   * Future Features:
@@ -72,7 +72,7 @@ The purpose of this project was to create a multiple page website for a small lo
     * Add links to class timetables and live virtual classes to avoid users having to contact the company for these details.
     * Add gym membership payment functionality to allow users to sign themselves up and pay for membership without having to contact the company.
     * Add a sign in page for users to be able to store and view infromation about their gym sessions, classes and track progress.
-    * Potentially create an app for the members to access all of their profile information and possibly communicate with other members and staff.
+    * Potentially create an app for the members to access all of their profile information and communicate with other members and staff.
 
 * ## Skeleton
   * Wireframes:
@@ -81,8 +81,8 @@ The purpose of this project was to create a multiple page website for a small lo
     - Desktop: [Home](assets/wireframes/index.png) | [About Us](assets/wireframes/about.png) | [Join Us](assets/wireframes/desktop-our-work.png) | [Contact Us](assets/wireframes/contact.png) | [Thank You](assets/wireframes/submission.png)
 
   * Sitemap: 
-    * Blue lines indicate page access via navigation bar.
-    * Purple lines indicate page access via buttons.
+    * Blue lines indicate page access by using the navigation bar.
+    * Purple lines indicate page access by using the buttons.
 
     ![sitemap](assets/readme/sitemap.png)
 
