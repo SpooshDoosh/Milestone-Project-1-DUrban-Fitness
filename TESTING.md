@@ -173,6 +173,27 @@ Lighthouse was used to test each page (on desktop and mobile versions) to assess
 
 ---
 
+# Color Contrast Accessibility Validation
+ Each page of the website was run through the Color Contrast Accessibility Validator to ensure the contrast ratio of the webpages met a ratio of at least 3.50:1.
+
+* index.html 
+
+    ![index](assets/testing/index-colour.png)
+
+* about.html 
+
+    ![about](assets/testing/about-colour.png)
+
+* membership.html 
+
+    ![membership](assets/testing/join-colour.png)
+
+* contact.html 
+
+    ![contact](assets/testing/contact-colour.png)
+
+---
+
 # Debugging
 ## Resolved
 * It had been brought to my attention by a visitor to the site that they could not tell when they had selected the input fields on the form, there was no clear indication to begin typing. To resolve this, the following was done:
