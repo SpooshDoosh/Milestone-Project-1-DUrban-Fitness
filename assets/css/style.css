@@ -606,3 +606,14 @@ iframe {
     }
 }
 
+@media screen and (max-width: 320px) {
+    .hero {
+        background: URL("../images/hero1-small.webp");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30vh;
+        width: 100%;
+    }
+}
+
