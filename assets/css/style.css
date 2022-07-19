@@ -262,14 +262,14 @@ footer {
     margin: auto;
     border: 2px solid #fff;
     border-radius: 10px;
-    padding: 15px 32px 15px 32px;
+    padding: 6px 12px;
     text-align: center;
     font-size: 100%;
-    background-color: #4c9141;
+    background-color: #4C8044;
     color: #fff;
     display: block;
     font-size: 14pt;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .submit-button:hover {
@@ -343,11 +343,11 @@ iframe {
 }
 
 .btn-primary {
-    background: #4c9141;
+    background: #4C8044;
     color: #fff;
     border-color: #fff;
     font-size: 14pt;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .btn-primary:hover {
