@@ -56,6 +56,7 @@ The purpose of this project was to create a multiple page website for a small lo
       - Thank You Page - Upon successfully submitting contact form, the user will receive a "Thank you" page acknowledging their enquiry and giving details about response times.
     * The website is responsive on all devices.
     * User can find all social media links and contact information within the footer of every page. Social media links open in new tabs.
+    * Users will receive a 404 Page on their screen if they attempt to direct to a page which does not exist.
     * Navigation: 
       * User can land on any page of the website and find what they need within 3 clicks.
       * Navigation bar available on every page and has links to every page (excluding "Thank you" page).
@@ -68,7 +69,6 @@ The purpose of this project was to create a multiple page website for a small lo
 
   * Future Features:
     * Add the ability to schedule an induction session for the gym online.
-    * Users will receive a 404 Page on their screen if they attempt to direct to a page which does not exist. The 404 page is available but not functional as yet.
     * Add links to class timetables and live virtual classes to avoid users having to contact the company for these details.
     * Add gym membership payment functionality to allow users to sign themselves up and pay for membership without having to contact the company.
     * Add a sign in page for users to be able to store and view infromation about their gym sessions, classes and track progress.
@@ -85,6 +85,9 @@ The purpose of this project was to create a multiple page website for a small lo
     * Purple lines indicate page access via buttons.
 
     ![sitemap](assets/readme/sitemap.png)
+
+  * 404 page:
+    * User will be redirected to a 404 error page when attempting to access a page that no longer exists or is unavailable. This is the [404 page](404.html).
 
 * ## Surface 
   * Colour Scheme:
