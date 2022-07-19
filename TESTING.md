@@ -173,6 +173,10 @@ Lighthouse was used to test each page (on desktop and mobile versions) to assess
 
 # Debugging
 ## Resolved
+* It had been brought to my attention by a visitor to the site that they could not tell when they had selected the input fields on the form, there was no clear indication to begin typing. To resolve this, the following was done:
+    * Removed the inner black border when in focus on the text inputs.
+    * Changed the colour of the caret to #fff to conrast the background image.
+
 * Lighthouse mobile performance testing on the "contact us" page was at 75. Changes were made to get the score to 92. To achieve this, the following was done:
    * Replaced mobile background with a WEBP image that had been compressed / optimized.
    * The iframe at the bottom of the page displaying the map was removed from the mobile version of the website.
