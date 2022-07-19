@@ -76,9 +76,9 @@ The purpose of this project was to create a multiple page website for a small lo
 
 * ## Skeleton
   * Wireframes:
-    - Mobile: [Home](assets/wireframes/index-mobile.png) | [About Us](assets/wireframes/about-mobile.png) | [Join Us](assets/wireframes/join-mobile.png) | [Contact Us](assets/wireframes/contact-mobile.png) | [Thank You](assets/wireframes/submission-mobile.png)
-    - Tablet: [Home](assets/wireframes/index-tablet.png) | [About Us](assets/wireframes/about-tablet.png) | [Join Us](assets/wireframes/join-tablet.png) | [Contact Us](assets/wireframes/contact-tablet.png) | [Thank You](assets/wireframes/submission-tablet.png)
-    - Desktop: [Home](assets/wireframes/index.png) | [About Us](assets/wireframes/about.png) | [Join Us](assets/wireframes/desktop-our-work.png) | [Contact Us](assets/wireframes/contact.png) | [Thank You](assets/wireframes/submission.png)
+    - Mobile: [Home](wireframes/index-mobile.png) | [About Us](wireframes/about-mobile.png) | [Join Us](wireframes/join-mobile.png) | [Contact Us](wireframes/contact-mobile.png) | [Thank You](wireframes/submission-mobile.png)
+    - Tablet: [Home](assets/wireframes/index-tablet.png) | [About Us](wireframes/about-tablet.png) | [Join Us](wireframes/join-tablet.png) | [Contact Us](wireframes/contact-tablet.png) | [Thank You](wireframes/submission-tablet.png)
+    - Desktop: [Home](assets/wireframes/index.png) | [About Us](wireframes/about.png) | [Join Us](wireframes/desktop-our-work.png) | [Contact Us](wireframes/contact.png) | [Thank You](wireframes/submission.png)
 
   * Sitemap: 
     * Blue lines indicate page access by using the navigation bar.
@@ -94,6 +94,14 @@ The purpose of this project was to create a multiple page website for a small lo
   * Colour Scheme:
 
     ![Palette Colours](assets/readme/colour-palette.png)
+
+    * Flame(E25822). Because orange is associated with the fruit of the same name, it can be associated with health and vitality. In designs, orange commands attention without being overpowering. It’s often considered more friendly and inviting, and less in–your–face.
+
+    * Fern Green(4C8044). In design, green can have a balancing and harmonizing effect, and is very stable. This particular green was chosen for the buttons to make them stand out whilst still providing a decent colour contrast ratio with white text.
+
+    * Charleston green (232B2B) was chosen as a substitute for a grey colour while managing to keep a general theme and link with the Fern Green (4C8044).
+
+    * Black and white were used for text to increase contrast between text and backgrounds.
 
   * Typography:
     * Two fonts were used throughout this website.
