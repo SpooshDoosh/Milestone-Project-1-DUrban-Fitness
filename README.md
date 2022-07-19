@@ -119,7 +119,7 @@ The purpose of this project was to create a multiple page website for a small lo
   * [CSS3](https://en.wikipedia.org/wiki/CSS) - Used to style the content of the website.
 
 * ## Frameworks, Libraries & Programs
-  * [Bootstrap](https://getbootstrap.com/) - Used to make the website responsive, and for the design of the navigation bar / hamburger menu.
+  * [Bootstrap](https://getbootstrap.com/) - Used to make the website responsive, for blockquotes in testimonial section and for the design of the navigation bar / hamburger menu.
   * [Font Awesome](https://fontawesome.com/) - Used for the icons throughout the website.
   * [Google Fonts](https://fonts.google.com/) - Used to import the font-families used throughout the website: Roboto and Lato.
   * [Git](https://git-scm.com/) - Used for version control.
