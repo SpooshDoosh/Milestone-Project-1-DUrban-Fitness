@@ -1,7 +1,7 @@
 # Testing
 
 # Browser Compatibility
-This website has been tested and operates as it should on Chrome, Microsoft Edge, Safari, Firefox and Opera browsers.
+This website has been tested and operates as expected on Chrome, Microsoft Edge, Safari, Firefox and Opera browsers.
 
 The website has been tested using Chrome Devloper Tools for it's responsiveness on various device viewports.
 
@@ -80,6 +80,8 @@ I personally tested the website on my iPad 6 and iPhone 12 Pro Max.
 
 
     * I want site visitors to be able to directly contact the company through the website.
+        * There is a contact form on the Contact Us Page. The contact form is simple to use. There is a dropdown within the contact form to be able to select the purpose of contact.
+        ![Contact](assets/testing/contact.png)
 
 ---
 
@@ -176,6 +178,11 @@ Lighthouse was used to test each page (on desktop and mobile versions) to assess
 * It had been brought to my attention by a visitor to the site that they could not tell when they had selected the input fields on the form, there was no clear indication to begin typing. To resolve this, the following was done:
     * Removed the inner black border when in focus on the text inputs.
     * Changed the colour of the caret to #fff to conrast the background image.
+
+* When running the code validation checkers a few errors were found and were easily resolved by removing the issues or editing the tags that were affected.
+    * Every page had a stray div closing tag.
+    * The membership.html had h3 closing tags attached to h2 elements.
+    * An h2 tag had an accidental "s" in it.
 
 * Lighthouse mobile performance testing on the "contact us" page was at 75. Changes were made to get the score to 92. To achieve this, the following was done:
    * Replaced mobile background with a WEBP image that had been compressed / optimized.
