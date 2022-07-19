@@ -12,11 +12,11 @@ The purpose of this project was to create a multiple page website for a small lo
 
 # Table of Contents
 
-## UX
-## Technologies Used
-## Testing
-## Deployment
-## Credits
+## [UX](#ux)
+## [Technologies Used](#technologies-used)
+## [Testing](#testing)
+## [Deployment](#deployment)
+## [Credits](#credits)
 ---
 
 # UX
