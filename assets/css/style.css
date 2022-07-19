@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;  
-  overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -57,7 +57,7 @@ h2 {
 
 .navbar-nav a:hover {
     color: #e25822;
-    
+
 }
 
 .navbar-nav ul {
@@ -167,7 +167,8 @@ h3 {
     font-size: x-large;
 }
 
-h3, ul {
+h3,
+ul {
     color: #fff;
     padding-top: 10px;
 }
@@ -207,7 +208,9 @@ footer {
     padding: 10px 0;
 }
 
-.get-in-touch, .copyright, .socials {
+.get-in-touch,
+.copyright,
+.socials {
     border-top: 2px solid #e25822;
 }
 
@@ -226,10 +229,12 @@ footer {
     color: #fff;
     max-width: 600px;
     left: 10%;
-    padding: 30px; 
+    padding: 30px;
 }
 
-.text-input, .drop-down, .textarea {
+.text-input,
+.drop-down,
+.textarea {
     background: transparent;
     color: #fff;
     width: 100%;
@@ -240,7 +245,9 @@ footer {
     caret-color: #fff;
 }
 
-.text-input:focus, .drop-down:focus, .textarea:focus {
+.text-input:focus,
+.drop-down:focus,
+.textarea:focus {
     outline: none;
 }
 
@@ -254,7 +261,8 @@ footer {
     height: 150px;
 }
 
-.text-input:hover, .textarea:hover {
+.text-input:hover,
+.textarea:hover {
     border-color: #fff;
 }
 
@@ -274,8 +282,8 @@ footer {
 
 .submit-button:hover {
     background-color: #fff;
-    color: #4c9141;
-    border: 2px solid #4c9141;
+    color: #4C8044;
+    border: 2px solid #4C8044;
 }
 
 /*----------------------------------------MAP*/
@@ -307,21 +315,25 @@ iframe {
     text-align: center;
 }
 
-.top-left, .bottom-left {
+.top-left,
+.bottom-left {
     float: left;
     margin: 35px 0 0 35px;
 }
 
-.top-right, .bottom-right {
+.top-right,
+.bottom-right {
     float: right;
     margin: 35px 35px 0 0;
 }
 
-.bottom-left, .bottom-right {
+.bottom-left,
+.bottom-right {
     margin-bottom: 35px;
 }
 
-.top-box, .bottom-box {
+.top-box,
+.bottom-box {
     display: inline-block;
     width: 100vw;
 }
@@ -352,19 +364,24 @@ iframe {
 
 .btn-primary:hover {
     background: #fff;
-    color: #4c9141;
-    border-color: #4c9141;
+    color: #4C8044;
+    border-color: #4C8044;
 }
 
 /*----------------------------------------ABOUT US */
+
+.about-us-intro h2 {
+    margin-bottom: 0;
+}
 
 .about-us-intro p {
     text-align: left;
     margin: auto;
     font-size: 120%;
     width: 70%;
-    padding: 35px 0;
+    padding: 30px 0;
 }
+
 .black-text {
     color: #000;
     font-weight: bold;
@@ -395,7 +412,7 @@ iframe {
 
 .about-mid-img {
     width: 33.33%;
-    padding: 5px;    
+    padding: 5px;
 }
 
 .about-mid-img img {
@@ -473,40 +490,43 @@ iframe {
     }
 }
 
-@media screen and (max-width: 820px) { 
-   .hero {
-    background: url("../images/hero1.webp");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    background-color: #232b2b;
-    height: 40vh;
-    width: 100vw;
-   }
-
-   .about-hero {
-    background: url("../images/hero2.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-    width: 100vw;
-   }
-
-   .logo {
-    font-size: 100%;
-   }
-
-   .top-left, .bottom-left {
-    margin: auto;
+@media screen and (max-width: 820px) {
+    .hero {
+        background: url("../images/hero1.webp");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+        background-color: #232b2b;
+        height: 40vh;
+        width: 100vw;
     }
 
-    .top-right, .bottom-right {
+    .about-hero {
+        background: url("../images/hero2.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+        width: 100vw;
+    }
+
+    .logo {
+        font-size: 100%;
+    }
+
+    .top-left,
+    .bottom-left {
         margin: auto;
     }
 
-    .top-box, .bottom-box {
+    .top-right,
+    .bottom-right {
+        margin: auto;
+    }
+
+    .top-box,
+    .bottom-box {
         display: inline;
         width: 100vw;
     }
@@ -547,11 +567,11 @@ iframe {
     }
 
     .contact-section {
-    background: url("../images/boxing-cropped.webp");
-    background-position: left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 0;
+        background: url("../images/boxing-cropped.webp");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0;
     }
 
     .map {
@@ -590,17 +610,17 @@ iframe {
         font-weight: 900;
         margin: 50px auto;
     }
-    
+
     .subheader-404 {
         margin: 35px auto;
     }
-    
+
     .text-404 {
         font-size: 25px;
         width: auto;
         margin: 35px auto;
     }
-    
+
     .button-404 {
         margin: 35px auto;
     }
@@ -616,4 +636,3 @@ iframe {
         width: 100%;
     }
 }
-
